@@ -11,4 +11,6 @@
 股票表(s_stock) id，code，name，holding
 股票交易记录表(s_stock_transaction_record) id,code,amount,transaction_type,transaction_time
 结算表(s_settlement)：id,currency
-货币类型表-
+股票交易类型表(s_stock_transaction_type)id,type,note
+现金交易类型表(s_cash_transaction_type)id,type,note
+货币类型表(s_currency_type)id,currency,code
